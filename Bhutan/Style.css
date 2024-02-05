@@ -1,0 +1,183 @@
+body {
+    text-align: center;
+    justify-content: center;
+}
+
+
+table {
+    text-align: left;
+    padding: 2rem;
+}
+
+th {
+    text-align: right;
+    background-image: linear-gradient(to top, #fe4e12 25%, #ffd51f 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 3rem;
+}
+
+h1#MainHeader {
+    font-size: 5rem;
+    text-align: center;
+    background-image: linear-gradient(to top, #fe4e12 25%, #ffd51f 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+h2 {
+    background-image: linear-gradient(to top, #fe4e12 25%, #ffd51f 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+#LinkLeiste {
+    text-align: center;
+    list-style: none;
+}
+
+#LinkLeiste li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 1rem;
+}
+
+#LinkLeiste ul {
+    padding: 0;
+}
+
+dl dd {
+    float: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #fe4e12;
+    font-size: large;
+}
+
+img#Flag {
+    float: right;
+    width: 20rem;
+    height: auto;
+}
+
+div.Text {
+    /* background-color: rgba(255, 255, 255, 0.75); */
+    /* padding: 3rem;
+    padding-right: 3rem; */
+    scroll-margin-right: 3rem;
+
+}
+
+div.FotoCarrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.FotoCarrossel {
+    float: right;
+}
+
+h4 {
+    background-image: linear-gradient(to top, #fe4e12 25%, #ffd51f 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+.landscape {
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.landscape h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.landscape img {
+    width: 50rem;
+    height: auto;
+    padding: 3rem;
+}
+
+.landscape span {
+    font-weight: bold;
+
+}
+
+.hotel-list {
+    text-align: left;
+    padding: 1rem;
+}
+
+.hotel-list li:first-child {
+    list-style-image: url('Stecknadel.jpg');
+}
+
+.hotel-list li:nth-child(2) {
+    list-style-image: url('w-lan.png');
+
+}
+
+.hotel-list li:nth-child(3) {
+    list-style-image: url('parken.png');
+}
+
+.hotel-list li:nth-child(4) {
+    list-style-image: url('schwimmbad.png');
+}
+
+
+.Sterne {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.Sterne li {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+   
+}
+
+.Sights {
+    padding: 2rem;
+}
+
+.Sights li {
+    text-align: left;
+    padding: 0.25rem;
+    list-style-image: url('drachen.png');
+}
+
+.card{
+    float: right;
+    margin: 3rem;
+}
+.HistoryRegions{
+    text-align: left;
+}
+.HistoryRegions img{
+float: left;
+margin-right: 3rem;
+}
+
+.Culture{
+
+    padding-right: 3rem;
+}
